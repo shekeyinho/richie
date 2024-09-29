@@ -54,11 +54,11 @@ input{
     right: 0;
 }
 .lname input{
-    padding-left: 60px;
+    padding-left: 50px;
     flex-shrink: 1;
 }
 .fname input{
-    padding-right: 60px;
+    padding-right: 50px;
     
     
 }
