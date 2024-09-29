@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(224, 243, 224);
+}
+h2{
+    margin: 5px;
+    
+}
+.container{
+    
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 40%;
+    min-height: 550px;
+    margin: 80px auto;
+    padding: 1rem;
+    
+}
+.inner-container{
+    
+    /* border: 1px solid black; */
+    
+    min-height: 500px;
+    margin: 10px;
+    position: relative;
+    
+}
+label{
+    margin: 10px;
+}
+input{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.inputmail{
+    width: 95%;
+    
+    
+}
+.firstlname{
+    display: flex;
+    
+    
+}
+.lname{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.lname input{
+    padding-left: 60px;
+    flex-shrink: 1;
+}
+.fname input{
+    padding-right: 60px;
+    
+    
+}
+
+
+.messageinput{
+    width: 95%;
+    padding: 1.3rem;
+}
+.general, .support{
+    margin: 7px;
+    border: 1px solid black;
+    /* width: 50%; */
+    
+}
+.allquery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.box1{
+    
+    width: 50%;
+}
+.box{
+    /* display: flex; */
+    /* justify-content: space-evenly;
+    align-items: center; */
+    cursor: pointer;
+    /* display: flex; */
+    width: 50%;
+    
+    
+}
+.submit{
+    width: 95%;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    cursor: pointer;
+    /* padding: 1.3rem; */
+}
